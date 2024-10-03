@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Apigateway" />
+    <file type="web" url="file://$PROJECT_DIR$/Booking" />
+    <file type="web" url="file://$PROJECT_DIR$/BookingService" />
+    <file type="web" url="file://$PROJECT_DIR$/DiscoveryService" />
+    <file type="web" url="file://$PROJECT_DIR$/Flight" />
+    <file type="web" url="file://$PROJECT_DIR$/FlightService" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

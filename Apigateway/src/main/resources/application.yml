@@ -1,0 +1,20 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: apigetway
+  cloud:
+    gateway:
+      routes:
+        - id: booking_service_route
+          uri: lb://BookingService
+          predicates:
+            - Path=/api/v1/bookings/**
+        - id: flight_service_route
+          uri: lb://FlightService
+          predicates:
+            - Path=/api/v1/flights/**
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8787/eureka
